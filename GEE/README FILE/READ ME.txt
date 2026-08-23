@@ -1,0 +1,29 @@
+HOW TO USE THE GEE EARTH ENGINE TOOL FOR HABITAT CLASSIFICATION
+------------------------------------------------------------------
+
+1. Download the 3 JavaScript module files from GitHub.
+
+2. Sign into your Google Earth Engine Account.
+
+3. In your GEE Create 3 new scripts and name them : 
+
+	i) Module 1_Data Preparation.
+	ii) Module 2_Classification and Segmentation.
+	iii) Module 3_Graphic User Interface.
+
+This will help to distinguish what each script is for.
+
+4. In the first script, Import the sample boundary as sample, then copy and paste the whole code from the downloaded Module 1_Data Preparation.js file
+
+5. Run the code and Tasks making sure the predictor Stack and training Image are exported to your GEE Assets. 
+
+6. Also run the tasks to export all the Sentinel 1 and Sentinel 2 predictor variables for use in R.
+
+7. In the second script, also import the sample boundary as sample and the training Polygons , then copy and paste the whole code from the downloaded Module 2_Classification and Segmentation.js file.
+
+8. Run the code and Tasks making sure the classified image, accuracy results and SNIC segments image are exported to your GEE Assets. 
+
+9. In the last script, Import the sample boundary as sample, then copy and paste the whole code from the downloaded Module 3_Graphic User Interface.js file.
+
+10. Run the code to view the habitat classification. 
+
