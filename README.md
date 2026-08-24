@@ -10,7 +10,7 @@ The **GEE** folder contains:
 
 * Three JavaScript scripts used in Google Earth Engine.
 * The data required to run the GEE scripts.
-* A **README** file providing instructions on how to run the tools and generate the required outputs.
+* A **README** file providing instructions on how to run the GEE scripts and generate the required outputs.
 
 ### R Folder
 
