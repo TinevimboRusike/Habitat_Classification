@@ -1,7 +1,11 @@
 # Habitat Classification – GEE and R Tools
 
-This repository contains the **Google Earth Engine (GEE)** and **R** tools developed as part of my MSc dissertation in Geographic Information Science.
-The tools were developed to support habitat classification using remote sensing data. The repository includes the scripts, sample data, and documentation required to reproduce the workflow.
+This repository contains the **Google Earth Engine (GEE) and R tools** developed as part of my MSc dissertation in Geographic Information Science. The tools were designed to generate **on-demand habitat extent maps using freely available remote sensing data**.
+
+The repository includes the scripts, sample data, and documentation required to reproduce the workflow, from data preparation and habitat classification to the generation of habitat extent outputs.
+
+The tools have the potential to support **environmental practitioners and ecologists in Biodiversity Net Gain (BNG) assessment surveys** by providing an accessible and reproducible approach to habitat mapping.
+
 
 ## Repository Structure
 
