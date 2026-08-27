@@ -20,14 +20,14 @@ library(tictoc) # computing the time taken to run the whole code.
 tic('Total elapsed time: ')
 
 # B. Setting the working directory
-setwd('C:/Users/Admin/OneDrive/Documents/TINEVIMBORUSIKE/2026/JUNE/DISSERTATION/DISSERTATION/Deliverables/Code_and_Scripts/R')
+setwd('Write your file path here')
 
 
 # C. Segmenting Individual images (April to September)
 
 #===APRIL=====
 
-April <- rast('C:/Users/Admin/OneDrive/Documents/TINEVIMBORUSIKE/2026/JUNE/DISSERTATION/DISSERTATION/Deliverables/Code_and_Scripts/R/TRAINING_IMAGES/april.tif')
+April <- rast('Write your file path here/april.tif')
 
 # Converting the image to an array
 
@@ -81,7 +81,7 @@ writeRaster(
 
 #=== MAY =====
 
-May <- rast('C:/Users/Admin/OneDrive/Documents/TINEVIMBORUSIKE/2026/JUNE/DISSERTATION/DISSERTATION/Deliverables/Code_and_Scripts/R/TRAINING_IMAGES/may.tif')
+May <- rast('Write your file path here/may.tif')
 
 # Converting the image to an array
 
@@ -135,7 +135,7 @@ writeRaster(
 
 #=== JUNE =====
 
-June <- rast('C:/Users/Admin/OneDrive/Documents/TINEVIMBORUSIKE/2026/JUNE/DISSERTATION/DISSERTATION/Deliverables/Code_and_Scripts/R/TRAINING_IMAGES/june.tif')
+June <- rast('Write your file path here/june.tif')
 
 # Converting the image to an array
 
@@ -187,7 +187,7 @@ writeRaster(
 
 #=== JULY =====
 
-July <- rast('C:/Users/Admin/OneDrive/Documents/TINEVIMBORUSIKE/2026/JUNE/DISSERTATION/DISSERTATION/Deliverables/Code_and_Scripts/R/TRAINING_IMAGES/july.tif')
+July <- rast('Write your file path here/july.tif')
 
 # Converting the image to an array
 
@@ -239,7 +239,7 @@ writeRaster(
 
 #=== September =====
 
-September <-rast('C:/Users/Admin/OneDrive/Documents/TINEVIMBORUSIKE/2026/JUNE/DISSERTATION/DISSERTATION/Deliverables/Code_and_Scripts/R/TRAINING_IMAGES/september.tif')
+September <-rast('Write your file path here/september.tif')
 
 #  Converting the image to an array
 
@@ -292,7 +292,7 @@ writeRaster(
 
 #===MEDIAN - OUR PREDICTION RASTER =====
 
-Median <- rast('C:/Users/Admin/OneDrive/Documents/TINEVIMBORUSIKE/2026/JUNE/DISSERTATION/DISSERTATION/Deliverables/Code_and_Scripts/R/TRAINING_IMAGES/median.tif')
+Median <- rast('Write your file path here/median.tif')
 
 # Converting the image to an array
 
